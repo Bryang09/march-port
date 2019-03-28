@@ -1,11 +1,28 @@
 .Hero {
-  background: url(./bg2.svg) no-repeat 0 0 / cover;
+  background: url(./bg3.svg) no-repeat 0 0 / cover;
   height: 100vh;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   display: flex;
+  flex-direction: column;
 
-  h1 {
-    color: #fff;
+  .scroll {
+    height: 50px;
+    width: 50px;
+    background: url(./scroll.svg) no-repeat 0 0 / contain;
+    margin-bottom: 4vh;
+    animation: scroll 2s ease infinite;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
   }
 }

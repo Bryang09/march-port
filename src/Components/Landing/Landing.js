@@ -3,14 +3,16 @@ import React, { Component } from "react";
 import ReactPageScroller from "react-page-scroller";
 
 import Hero from "./Hero/Hero";
-import Project1 from "./Project1/Project1";
+import Clothing from "./Clothing/Clothing";
+import Shelter from "./Shelter/Shelter";
 
 class Landing extends Component {
   render() {
     return (
       <ReactPageScroller className="Landing">
         <Hero />
-        <Project1 />
+        <Clothing />
+        <Shelter />
       </ReactPageScroller>
     );
   }

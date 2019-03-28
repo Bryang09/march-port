@@ -1,0 +1,18 @@
+.Project {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Clothing {
+  background: url(./bg4.svg) no-repeat 0 0 / cover;
+  // background: url(./bg2.svg) no-repeat 0 0 / cover;
+}
+
+.info {
+  border: 1px solid #fff;
+  // border: 1px solid #333;
+  width: 575px;
+  margin-right: 285px;
+}

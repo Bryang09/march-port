@@ -1,0 +1,11 @@
+.Hero {
+  background: url(./bg2.svg) no-repeat 0 0 / cover;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+  h1 {
+    color: #fff;
+  }
+}

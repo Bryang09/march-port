@@ -2,13 +2,13 @@ import React, { Component } from "react";
 
 import ReactPageScroller from "react-page-scroller";
 
-import Hero from "./Components/Hero/Hero";
-import Project1 from "./Components/Project1/Project1";
+import Hero from "./Hero/Hero";
+import Project1 from "./Project1/Project1";
 
-class App extends Component {
+class Landing extends Component {
   render() {
     return (
-      <ReactPageScroller className="App">
+      <ReactPageScroller className="Landing">
         <Hero />
         <Project1 />
       </ReactPageScroller>
@@ -16,4 +16,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Landing;

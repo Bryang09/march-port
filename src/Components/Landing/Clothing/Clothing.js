@@ -2,19 +2,22 @@ import React, { Component } from "react";
 
 import "./Clothing.scss";
 import Counter from "../PageCounter/Counter";
+import Info from "../ProjectInfo/Info";
+
+import { Projects } from "../projects";
 
 class Clothing extends Component {
-  state = {
-    page: 1
-  };
   render() {
-    const { page } = this.state;
+    const page = 1;
+
+    console.log(this.props.project);
+
+    const { project } = this.props;
+
     return (
-      <div className="Project Clothing">
+      <div className={`Project ${project.class}`}>
         <Counter page={page} />
-        <div className="info">
-          <h1>Clothing</h1>
-        </div>
+        <Info project={project} />
       </div>
     );
   }

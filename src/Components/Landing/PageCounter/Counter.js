@@ -12,8 +12,9 @@ class Counter extends Component {
     return (
       <div className="Counter">
         <h4>
-          {page}/{total}
+          <span className="page">{page}</span> /{total}
         </h4>
+        <h4 className="projects">Projects</h4>
       </div>
     );
   }

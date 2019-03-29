@@ -2,15 +2,17 @@ import React from "react";
 
 import "./Shelter.scss";
 import Counter from "../PageCounter/Counter";
+import Info from "../ProjectInfo/Info";
 
 const Shelter = props => {
   const page = 3;
+
+  const { project } = props;
+
   return (
     <div className="Project Shelter">
       <Counter page={page} />
-      <div className="info">
-        <h1>Shelter</h1>
-      </div>
+      <Info project={project} />
     </div>
   );
 };

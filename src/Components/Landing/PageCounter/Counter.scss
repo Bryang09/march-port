@@ -1,4 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Allura|Oswald");
+
 .Counter {
   position: fixed;
   left: 100px;
+
+  font-size: 40px;
+
+  h4 {
+    color: #fff;
+    margin: 0;
+    font-family: "Allura", cursive;
+
+    .page {
+      display: inline-block;
+      font-weight: 300;
+      transform: translateY(-20%);
+    }
+  }
+  .projects {
+    font-family: "Oswald", sans-serif;
+
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
 }

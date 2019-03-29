@@ -25,3 +25,30 @@
     text-transform: uppercase;
   }
 }
+
+@media screen and (max-width: 1135px) {
+  .Counter {
+    left: 50%;
+    transform: translateY(-20px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Counter {
+    left: 45%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Counter {
+    transform: translateY(-125%);
+    left: 40%;
+
+    h4 {
+      font-size: 35px;
+    }
+    .projects {
+      font-size: 14px;
+    }
+  }
+}

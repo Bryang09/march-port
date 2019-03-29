@@ -13,7 +13,8 @@ class Clothing extends Component {
     const { project } = this.props;
 
     return (
-      <div className={`Project ${project.class}`}>
+      <div className="Project Clothing">
+        <div className="img" />
         <Counter id={project.id} />
         <Info project={project} />
       </div>

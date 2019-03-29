@@ -2,17 +2,21 @@ import React, { Component } from "react";
 
 import "./Counter.scss";
 
+import { Projects } from "../projects";
+
 class Counter extends Component {
-  state = {
-    total: 5
-  };
   render() {
-    const { page } = this.props;
-    const { total } = this.state;
+    const { id } = this.props;
+
+    const keys = Object.keys(Projects);
+    const length = keys.length;
+
+    console.log(length);
+
     return (
       <div className="Counter">
         <h4>
-          <span className="page">{page}</span> /{total}
+          <span className="page">{id}</span> / {length}
         </h4>
         <h4 className="projects">Projects</h4>
       </div>

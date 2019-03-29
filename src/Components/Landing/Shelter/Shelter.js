@@ -11,7 +11,7 @@ const Shelter = props => {
 
   return (
     <div className="Project Shelter">
-      <Counter page={page} />
+      <Counter id={project.id} />
       <Info project={project} />
     </div>
   );

@@ -11,7 +11,7 @@ const Watches = props => {
 
   return (
     <div className="Project Watches">
-      <Counter page={page} />
+      <Counter id={project.id} />
       <Info project={project} />
     </div>
   );

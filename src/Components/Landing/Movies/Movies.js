@@ -11,7 +11,7 @@ const Movies = props => {
 
   return (
     <div className="Project Movies">
-      <Counter page={page} />
+      <Counter id={project.id} />
       <Info project={project} />
     </div>
   );

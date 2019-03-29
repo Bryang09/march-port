@@ -10,7 +10,7 @@ const Anime = props => {
 
   return (
     <div className="Project Anime">
-      <Counter page={page} />
+      <Counter page={page} id={project.id} />
       <Info project={project} />
     </div>
   );

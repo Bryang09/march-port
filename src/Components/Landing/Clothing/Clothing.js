@@ -8,15 +8,13 @@ import { Projects } from "../projects";
 
 class Clothing extends Component {
   render() {
-    const page = 1;
-
     console.log(this.props.project);
 
     const { project } = this.props;
 
     return (
       <div className={`Project ${project.class}`}>
-        <Counter page={page} />
+        <Counter id={project.id} />
         <Info project={project} />
       </div>
     );

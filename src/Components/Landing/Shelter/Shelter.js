@@ -5,8 +5,6 @@ import Counter from "../PageCounter/Counter";
 import Info from "../ProjectInfo/Info";
 
 const Shelter = props => {
-  const page = 3;
-
   const { project } = props;
 
   return (

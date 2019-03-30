@@ -46,24 +46,16 @@
   }
   .img {
     display: flex;
-    background: url(./clothingSymbol.svg) no-repeat center center / contain;
     height: 60vh;
     width: 50vw;
   }
+
+  .clothing {
+    background: url(./clothingSymbol.svg) no-repeat center center / contain;
+  }
 }
 @media screen and (max-width: 500px) {
-  .Clothing {
-    background: linear-gradient(#011832, #5d097b);
-  }
-
-  .Project {
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: center;
-  }
   .img {
-    display: flex;
-    background: url(./clothingSymbol.svg) no-repeat center center / contain;
     height: 40vh;
     width: 50vw;
     transform: translateY(-40%);

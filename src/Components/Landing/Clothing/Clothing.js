@@ -4,8 +4,6 @@ import "./Clothing.scss";
 import Counter from "../PageCounter/Counter";
 import Info from "../ProjectInfo/Info";
 
-import { Projects } from "../projects";
-
 class Clothing extends Component {
   render() {
     console.log(this.props.project);
@@ -14,7 +12,7 @@ class Clothing extends Component {
 
     return (
       <div className="Project Clothing">
-        <div className="img" />
+        <div className="img clothing" />
         <Counter id={project.id} />
         <Info project={project} />
       </div>

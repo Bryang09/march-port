@@ -2,3 +2,43 @@
   background: url(./watches.svg) no-repeat 0 0 / cover;
   // background: url(./bg2.svg) no-repeat 0 0 / cover;
 }
+
+@media screen and (max-width: 1660px) {
+  .Watches {
+    background: url(./watches1660.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .Watches {
+    background: url(./watches1420.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .Watches {
+    background: url(./watches1135.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .Watches {
+    background: linear-gradient(#5d097b, #53cbff);
+  }
+  .watches {
+    display: flex;
+    background: url(./watchSymbol.svg) no-repeat center center / contain;
+    height: 60vh;
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Watches {
+    background: linear-gradient(#5d097b, #53cbff);
+  }
+
+  .watches {
+    background: url(./watchSymbolMobile.svg) no-repeat center center / contain;
+    height: 40vh;
+    width: 75vw;
+    transform: translateY(-40%);
+  }
+}

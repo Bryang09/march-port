@@ -5,8 +5,6 @@ import Counter from "../PageCounter/Counter";
 import Info from "../ProjectInfo/Info";
 
 const Movies = props => {
-  const page = 4;
-
   const { project } = props;
 
   return (

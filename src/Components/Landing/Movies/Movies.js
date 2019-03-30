@@ -9,6 +9,7 @@ const Movies = props => {
 
   return (
     <div className="Project Movies">
+      <div className="img movies" />
       <Counter id={project.id} />
       <Info project={project} />
     </div>

@@ -1,4 +1,44 @@
 .Movies {
   background: url(./movies.svg) no-repeat 0 0 / cover;
-  background: url(./movies2.svg) no-repeat 0 0 / cover;
+}
+
+@media screen and (max-width: 1660px) {
+  .Movies {
+    background: url(./movies1660.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .Movies {
+    background: url(./movies1420.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .Movies {
+    background: url(./movies1135.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .Movies {
+    background: linear-gradient(#121f76, #ff0000);
+  }
+  .movies {
+    display: flex;
+    background: url(./moviesSymbol.svg) no-repeat center center / contain;
+    height: 50vh;
+    width: 70vw;
+    transform: translateY(-10%);
+  }
+}
+@media screen and (max-width: 500px) {
+  .Movies {
+    background: linear-gradient(#121f76, #ff0000);
+  }
+
+  .movies {
+    background: url(./moviesSymbol.svg) no-repeat center center / contain;
+    height: 40vh;
+    width: 75vw;
+    transform: translateY(-40%);
+  }
 }

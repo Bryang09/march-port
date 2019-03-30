@@ -2,3 +2,44 @@
   background: url(./anime.svg) no-repeat 0 0 / cover;
   // background: url(./bg2.svg) no-repeat 0 0 / cover;
 }
+
+@media screen and (max-width: 1660px) {
+  .Anime {
+    background: url(./anime1660.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .Anime {
+    background: url(./anime1420.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .Anime {
+    background: url(./anime1135.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .Anime {
+    background: linear-gradient(#ff0000, #2d1212);
+  }
+  .anime {
+    display: flex;
+    background: url(./animeSymbol.svg) no-repeat center center / contain;
+    height: 50vh;
+    width: 70vw;
+    transform: translateY(-10%);
+  }
+}
+@media screen and (max-width: 500px) {
+  .Anime {
+    background: linear-gradient(#ff0000, #2d1212);
+  }
+
+  .anime {
+    background: url(./animeSymbol.svg) no-repeat center center / contain;
+    height: 40vh;
+    width: 75vw;
+    transform: translateY(-40%);
+  }
+}

@@ -10,6 +10,7 @@ const Anime = props => {
 
   return (
     <div className="Project Anime">
+      .<div className="img anime" />
       <Counter page={page} id={project.id} />
       <Info project={project} />
     </div>

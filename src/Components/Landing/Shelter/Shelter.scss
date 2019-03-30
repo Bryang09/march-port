@@ -3,3 +3,43 @@
   background: url(./shelter3.svg) no-repeat 0 0 / cover;
   display: flex;
 }
+
+@media screen and (max-width: 1660px) {
+  .Shelter {
+    background: url(./shelter1660.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1420px) {
+  .Shelter {
+    background: url(./shelter1420.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .Shelter {
+    background: url(./shelter1135.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 998px) {
+  .Shelter {
+    background: linear-gradient(#53cbff, #121f76);
+  }
+  .shelter {
+    display: flex;
+    background: url(./shelterSymbol.svg) no-repeat center center / contain;
+    height: 60vh;
+    width: 70vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .Shelter {
+    background: linear-gradient(#53cbff, #121f76);
+  }
+
+  .shelter {
+    background: url(./shelterSymbol.svg) no-repeat center center / contain;
+    height: 40vh;
+    width: 75vw;
+    transform: translateY(-40%);
+  }
+}

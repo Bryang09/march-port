@@ -9,6 +9,7 @@ const Shelter = props => {
 
   return (
     <div className="Project Shelter">
+      <div className="img shelter" />
       <Counter id={project.id} />
       <Info project={project} />
     </div>

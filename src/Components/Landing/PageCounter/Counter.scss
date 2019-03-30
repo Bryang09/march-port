@@ -26,16 +26,22 @@
   }
 }
 
+@media screen and (max-width: 1660px) {
+  .Counter {
+    left: 50px;
+  }
+}
+
 @media screen and (max-width: 1135px) {
   .Counter {
-    left: 50%;
+    left: 45%;
     transform: translateY(-20px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .Counter {
-    left: 45%;
+    left: 40%;
   }
 }
 

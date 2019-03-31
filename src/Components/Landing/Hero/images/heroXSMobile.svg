@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="568" height="320" viewBox="0 0 568 320">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.162" x2="0.854" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#51c94d"/>
+      <stop offset="1" stop-color="#b9fca5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.162" x2="0.854" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5736b8"/>
+      <stop offset="1" stop-color="#9252c8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ff6d1"/>
+      <stop offset="1" stop-color="#194672"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.646" x2="0.193" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8ebfff"/>
+      <stop offset="1" stop-color="#5c48ee"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.183" y1="0.204" x2="1" y2="0.911" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffd2f3"/>
+      <stop offset="1" stop-color="#4f8dde"/>
+    </linearGradient>
+    <clipPath id="clip-heroXSMobile">
+      <rect width="568" height="320"/>
+    </clipPath>
+  </defs>
+  <g id="heroXSMobile" clip-path="url(#clip-heroXSMobile)">
+    <rect width="568" height="320" fill="#011832"/>
+    <text id="Bryan_Gonzalez" data-name="Bryan Gonzalez" transform="translate(143 159)" fill="#fff" font-size="34" font-family="YuGothic-Medium, Yu Gothic" font-weight="500" letter-spacing="0.091em"><tspan x="0" y="0">Bryan Gonzalez</tspan></text>
+    <text id="Front_End_Developer" data-name="Front End Developer" transform="translate(190 196)" fill="#fff" font-size="16" font-family="CourierNewPSMT, Courier New" letter-spacing="0.022em" opacity="0.38"><tspan x="0" y="0">Front End Developer</tspan></text>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="15" cy="15" r="15" transform="translate(391.288 67)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="15" cy="15" r="15" transform="translate(94 67)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_4" data-name="Path 4" d="M8.227,0H21.773L30,9.388V20.612L21.773,30H8.227L0,20.612V9.388Z" transform="matrix(0.899, -0.438, 0.438, 0.899, 136.768, 229.252)" fill="url(#linear-gradient-3)"/>
+    <path id="Path_1" data-name="Path 1" d="M0,0,20,12.956,0,26.23Z" transform="translate(243.401 71)" fill="#ffab8e"/>
+    <path id="Path_2" data-name="Path 2" d="M0,0,20,11.407,0,23.093Z" transform="translate(286.166 229.168) rotate(90)" fill="url(#linear-gradient-4)"/>
+    <path id="Path_6" data-name="Path 6" d="M1434.88,630.453h15.138l7.431,12.5-7.431,12.5H1434.88l-7.431-12.5Z" transform="translate(-1036.211 -407)" fill="url(#linear-gradient-5)"/>
+  </g>
+</svg>

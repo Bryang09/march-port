@@ -57,3 +57,25 @@
     transform: translateY(-25%);
   }
 }
+
+@media screen and (max-width: 1025px) and (min-aspect-ratio: 4/3) {
+  .Watches {
+    background: url(./images/watchesIpad.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 4/3) {
+  .Watches {
+    background: url(./images/watchesMobile.svg) no-repeat 25% 0 / cover;
+  }
+
+  .watches {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-aspect-ratio: 4/3) {
+  .Watches {
+    background: url(./images/watchesXSMobile.svg) no-repeat 25% 0 / cover;
+  }
+}

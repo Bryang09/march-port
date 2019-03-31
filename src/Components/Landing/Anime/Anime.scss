@@ -45,14 +45,36 @@
     background: url(./images/animeSymbol.svg) no-repeat center center / contain;
     height: 40vh;
     width: 75vw;
-    transform: translateY(-40%);
+    transform: translateY(-30%);
   }
 }
 
 @media screen and (max-width: 350px) {
   .anime {
-    height: 42vh;
-    width: 40vw;
+    height: 40vh;
+    width: 38vw;
     transform: translateY(-25%);
+  }
+}
+
+@media screen and (max-width: 1025px) and (min-aspect-ratio: 4/3) {
+  .Anime {
+    background: url(./images/animeIpad.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 4/3) {
+  .Anime {
+    background: url(./images/animeMobile.svg) no-repeat 25% 0 / cover;
+  }
+
+  .anime {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-aspect-ratio: 4/3) {
+  .Anime {
+    background: url(./images/animeXSMobile.svg) no-repeat 25% 0 / cover;
   }
 }

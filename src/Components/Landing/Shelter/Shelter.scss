@@ -48,14 +48,36 @@
       contain;
     height: 40vh;
     width: 75vw;
-    transform: translateY(-40%);
+    transform: translateY(-30%);
   }
 }
 
 @media screen and (max-width: 350px) {
   .shelter {
-    height: 40vh;
-    width: 50vw;
+    height: 35vh;
+    width: 40vw;
     transform: translateY(-25%);
+  }
+}
+
+@media screen and (max-width: 1025px) and (min-aspect-ratio: 4/3) {
+  .Shelter {
+    background: url(./images/shelterIpad.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 4/3) {
+  .Shelter {
+    background: url(./images/shelterMobile.svg) no-repeat 25% 0 / cover;
+  }
+
+  .shelter {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-aspect-ratio: 4/3) {
+  .Shelter {
+    background: url(./images/shelterXSMobile.svg) no-repeat 25% 0 / cover;
   }
 }

@@ -1,21 +1,26 @@
 .Anime {
-  background: url(./anime.svg) no-repeat 0 0 / cover;
-  // background: url(./bg2.svg) no-repeat 0 0 / cover;
+  background: url(./images/anime.svg) no-repeat 0 0 / cover;
+  // background: url(./images/bg2.svg) no-repeat 0 0 / cover;
 }
 
 @media screen and (max-width: 1660px) {
   .Anime {
-    background: url(./anime1660.svg) no-repeat 0 0 / cover;
+    background: url(./images/anime1660.svg) no-repeat 0 0 / cover;
   }
 }
 @media screen and (max-width: 1420px) {
   .Anime {
-    background: url(./anime1420.svg) no-repeat 0 0 / cover;
+    background: url(./images/anime1420.svg) no-repeat 0 0 / cover;
   }
 }
 @media screen and (max-width: 1135px) {
   .Anime {
-    background: url(./anime1135.svg) no-repeat 0 0 / cover;
+    background: url(./images/anime1135.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Anime {
+    background: url(./images/anime1024.svg) no-repeat center 0 / cover;
   }
 }
 
@@ -25,7 +30,7 @@
   }
   .anime {
     display: flex;
-    background: url(./animeSymbol.svg) no-repeat center center / contain;
+    background: url(./images/animeSymbol.svg) no-repeat center center / contain;
     height: 50vh;
     width: 70vw;
     transform: translateY(-10%);
@@ -37,9 +42,17 @@
   }
 
   .anime {
-    background: url(./animeSymbol.svg) no-repeat center center / contain;
+    background: url(./images/animeSymbol.svg) no-repeat center center / contain;
     height: 40vh;
     width: 75vw;
     transform: translateY(-40%);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .anime {
+    height: 42vh;
+    width: 40vw;
+    transform: translateY(-25%);
   }
 }

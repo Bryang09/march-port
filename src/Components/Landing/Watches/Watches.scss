@@ -1,21 +1,27 @@
 .Watches {
-  background: url(./watches.svg) no-repeat 0 0 / cover;
-  // background: url(./bg2.svg) no-repeat 0 0 / cover;
+  background: url(./images/watches.svg) no-repeat 0 0 / cover;
+  // background: url(./images/bg2.svg) no-repeat 0 0 / cover;
 }
 
 @media screen and (max-width: 1660px) {
   .Watches {
-    background: url(./watches1660.svg) no-repeat 0 0 / cover;
+    background: url(./images/watches1660.svg) no-repeat 0 0 / cover;
   }
 }
 @media screen and (max-width: 1420px) {
   .Watches {
-    background: url(./watches1420.svg) no-repeat 0 0 / cover;
+    background: url(./images/watches1420.svg) no-repeat 0 0 / cover;
   }
 }
 @media screen and (max-width: 1135px) {
   .Watches {
-    background: url(./watches1135.svg) no-repeat 0 0 / cover;
+    background: url(./images/watches1135.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Watches {
+    background: url(./images/watches1024.svg) no-repeat center 0 / cover;
   }
 }
 
@@ -25,7 +31,7 @@
   }
   .watches {
     display: flex;
-    background: url(./watchSymbol.svg) no-repeat center center / contain;
+    background: url(./images/watchSymbol.svg) no-repeat center center / contain;
     height: 60vh;
     width: 70vw;
   }
@@ -36,9 +42,18 @@
   }
 
   .watches {
-    background: url(./watchSymbolMobile.svg) no-repeat center center / contain;
+    background: url(./images/watchSymbolMobile.svg) no-repeat center center /
+      contain;
     height: 40vh;
     width: 75vw;
     transform: translateY(-40%);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .watches {
+    height: 40vh;
+    width: 50vw;
+    transform: translateY(-25%);
   }
 }

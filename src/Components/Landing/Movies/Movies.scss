@@ -1,20 +1,26 @@
 .Movies {
-  background: url(./movies.svg) no-repeat 0 0 / cover;
+  background: url(./images/movies.svg) no-repeat 0 0 / cover;
 }
 
 @media screen and (max-width: 1660px) {
   .Movies {
-    background: url(./movies1660.svg) no-repeat 0 0 / cover;
+    background: url(./images/movies1660.svg) no-repeat 0 0 / cover;
   }
 }
 @media screen and (max-width: 1420px) {
   .Movies {
-    background: url(./movies1420.svg) no-repeat 0 0 / cover;
+    background: url(./images/movies1420.svg) no-repeat 0 0 / cover;
   }
 }
 @media screen and (max-width: 1135px) {
   .Movies {
-    background: url(./movies1135.svg) no-repeat 0 0 / cover;
+    background: url(./images/movies1135.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Movies {
+    background: url(./images/movies1024.svg) no-repeat center 0 / cover;
   }
 }
 
@@ -24,7 +30,7 @@
   }
   .movies {
     display: flex;
-    background: url(./moviesSymbol.svg) no-repeat center center / contain;
+    background: url(./images/moviesSymbol.svg) no-repeat center center / contain;
     height: 50vh;
     width: 70vw;
     transform: translateY(-10%);
@@ -36,9 +42,17 @@
   }
 
   .movies {
-    background: url(./moviesSymbol.svg) no-repeat center center / contain;
+    background: url(./images/moviesSymbol.svg) no-repeat center center / contain;
     height: 40vh;
     width: 75vw;
     transform: translateY(-40%);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .movies {
+    height: 40vh;
+    width: 40vw;
+    transform: translateY(-25%);
   }
 }

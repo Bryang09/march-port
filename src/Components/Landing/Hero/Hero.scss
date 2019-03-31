@@ -1,5 +1,5 @@
 .Hero {
-  background: url(./bg3.svg) no-repeat 0 0 / cover;
+  background: url(./images/hero.svg) no-repeat 0 0 / cover;
   height: 100vh;
   justify-content: flex-end;
   align-items: center;
@@ -9,7 +9,7 @@
   .scroll {
     height: 50px;
     width: 50px;
-    background: url(./scroll.svg) no-repeat 0 0 / contain;
+    background: url(./images/scroll.svg) no-repeat 0 0 / contain;
     margin-bottom: 4vh;
     animation: scroll 2s ease infinite;
   }
@@ -24,5 +24,47 @@
     100% {
       transform: translateY(0);
     }
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .Hero {
+    background: url(./images/hero1480.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .Hero {
+    background: url(./images/hero1260.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .Hero {
+    background: url(./images/hero890.svg) no-repeat center 0 / cover;
+  }
+}
+
+// @media screen and (max-width: 1080px) {
+//   .Hero {
+//     background: url(./images/hero1080.svg) no-repeat 0 0 / cover;
+//   }
+// }
+@media screen and (max-width: 890px) {
+  .Hero {
+    background: url(./images/hero890.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 730px) {
+  .Hero {
+    background: url(./images/hero730.svg) no-repeat 0 0 / cover;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Hero {
+    background: url(./images/hero600.svg) no-repeat center center / cover;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Hero {
+    background: url(./images/hero400.svg) no-repeat center / cover;
   }
 }

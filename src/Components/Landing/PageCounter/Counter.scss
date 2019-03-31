@@ -47,14 +47,40 @@
 
 @media screen and (max-width: 500px) {
   .Counter {
-    transform: translateY(-125%);
+    transform: translateY(-35%);
     left: 40%;
 
     h4 {
-      font-size: 35px;
+      font-size: 25px;
     }
     .projects {
       font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 4/3) {
+  .Counter {
+    font-size: 20px;
+    left: 65%;
+
+    .projects {
+      font-size: 15px;
+    }
+  }
+}
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 4/3) {
+  .Counter {
+    font-size: 20px;
+    left: 65%;
+    transform: translateY(-30%);
+
+    h4 {
+      font-size: 25px;
+    }
+
+    .projects {
+      font-size: 15px;
     }
   }
 }

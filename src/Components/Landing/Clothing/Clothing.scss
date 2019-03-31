@@ -6,7 +6,7 @@
 }
 
 .Clothing {
-  background: url(./clothing.svg) no-repeat 0 0 / cover;
+  background: url(./images/clothing.svg) no-repeat 0 0 / cover;
 }
 
 .img {
@@ -15,22 +15,28 @@
 
 @media screen and (max-width: 1660px) {
   .Clothing {
-    background: url(./clothing1660.svg) no-repeat 0 0 / cover;
+    background: url(./images/clothing1660.svg) no-repeat 0 0 / cover;
   }
 }
 @media screen and (max-width: 1420px) {
   .Clothing {
-    background: url(./clothing1420.svg) no-repeat 0 0 / cover;
+    background: url(./images/clothing1420.svg) no-repeat 0 0 / cover;
   }
 }
 @media screen and (max-width: 1135px) {
   .Clothing {
-    background: url(./clothing1135.svg) no-repeat 0 0 / cover;
+    background: url(./images/clothing1135.svg) no-repeat 0 0 / cover;
   }
 
   .Project {
     justify-content: center;
     align-items: flex-end;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Clothing {
+    background: url(./images/clothing1024.svg) no-repeat center 0 / cover;
   }
 }
 
@@ -51,7 +57,8 @@
   }
 
   .clothing {
-    background: url(./clothingSymbol.svg) no-repeat center center / contain;
+    background: url(./images/clothingSymbol.svg) no-repeat center center /
+      contain;
   }
 }
 @media screen and (max-width: 500px) {
@@ -59,5 +66,38 @@
     height: 40vh;
     width: 50vw;
     transform: translateY(-40%);
+  }
+}
+@media screen and (max-width: 350px) {
+  .img {
+    height: 40vh;
+    width: 50vw;
+    transform: translateY(-25%);
+  }
+}
+
+@media screen and (max-width: 1025px) and (min-aspect-ratio: 4/3) {
+  .Clothing {
+    background: url(./images/clothingIpad.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-aspect-ratio: 4/3) {
+  .Clothing {
+    background: url(./images/clothingMobile.svg) no-repeat 25% 0 / cover;
+  }
+  .Project {
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-aspect-ratio: 4/3) {
+  .Clothing {
+    background: url(./images/clothingXSMobile.svg) no-repeat 55% 0 / cover;
   }
 }

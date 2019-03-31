@@ -1,22 +1,28 @@
 .Shelter {
   height: 100vh;
-  background: url(./shelter3.svg) no-repeat 0 0 / cover;
+  background: url(./images/shelter3.svg) no-repeat 0 0 / cover;
   display: flex;
 }
 
 @media screen and (max-width: 1660px) {
   .Shelter {
-    background: url(./shelter1660.svg) no-repeat 0 0 / cover;
+    background: url(./images/shelter1660.svg) no-repeat 0 0 / cover;
   }
 }
 @media screen and (max-width: 1420px) {
   .Shelter {
-    background: url(./shelter1420.svg) no-repeat 0 0 / cover;
+    background: url(./images/shelter1420.svg) no-repeat 0 0 / cover;
   }
 }
 @media screen and (max-width: 1135px) {
   .Shelter {
-    background: url(./shelter1135.svg) no-repeat 0 0 / cover;
+    background: url(./images/shelter1135.svg) no-repeat 0 0 / cover;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .Shelter {
+    background: url(./images/shelter1024.svg) no-repeat center 0 / cover;
   }
 }
 
@@ -26,7 +32,8 @@
   }
   .shelter {
     display: flex;
-    background: url(./shelterSymbol.svg) no-repeat center center / contain;
+    background: url(./images/shelterSymbol.svg) no-repeat center center /
+      contain;
     height: 60vh;
     width: 70vw;
   }
@@ -37,9 +44,18 @@
   }
 
   .shelter {
-    background: url(./shelterSymbol.svg) no-repeat center center / contain;
+    background: url(./images/shelterSymbol.svg) no-repeat center center /
+      contain;
     height: 40vh;
     width: 75vw;
     transform: translateY(-40%);
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .shelter {
+    height: 40vh;
+    width: 50vw;
+    transform: translateY(-25%);
   }
 }

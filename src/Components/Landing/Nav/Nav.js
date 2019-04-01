@@ -37,7 +37,34 @@ class Nav extends Component {
           className="navInfo"
           className={this.state.nav ? "navigation" : "noNavigation"}
         >
-          <h1>Info</h1>
+          <div className="container">
+            <h2>
+              <a
+                href="https://github.com/Bryang09"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+            </h2>
+            <h2>
+              <a
+                href="https://www.linkedin.com/in/bryan-gonzalez09/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Linkedin
+              </a>
+            </h2>
+            <h2>
+              <a href="mailto:bryan.gonzalez1020.bg@gmail.com">Email</a>
+            </h2>
+            <h2>
+              <a href="resume.pdf" target="_blank">
+                Resume
+              </a>
+            </h2>
+          </div>
         </div>
       </div>
     );

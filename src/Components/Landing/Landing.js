@@ -10,17 +10,21 @@ import Movies from "./Movies/Movies";
 import Anime from "./Anime/Anime";
 
 import { Projects } from "./projects";
+import Nav from "./Nav/Nav";
 class Landing extends Component {
   render() {
     return (
-      <ReactPageScroller className="Landing">
-        <Hero />
-        <Clothing project={Projects.clothing} />
-        <Watches project={Projects.watches} />
-        <Shelter project={Projects.shelters} />
-        <Movies project={Projects.movies} />
-        <Anime project={Projects.anime} />
-      </ReactPageScroller>
+      <>
+        <Nav />
+        <ReactPageScroller className="Landing">
+          <Hero />
+          <Clothing project={Projects.clothing} />
+          <Watches project={Projects.watches} />
+          <Shelter project={Projects.shelters} />
+          <Movies project={Projects.movies} />
+          <Anime project={Projects.anime} />
+        </ReactPageScroller>
+      </>
     );
   }
 }

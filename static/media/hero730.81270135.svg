@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="730" height="1080" viewBox="0 0 730 1080">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.162" x2="0.854" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#51c94d"/>
+      <stop offset="1" stop-color="#b9fca5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ff6d1"/>
+      <stop offset="1" stop-color="#194672"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.162" x2="0.854" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5736b8"/>
+      <stop offset="1" stop-color="#9252c8"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.162" x2="0.854" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4b3ca"/>
+      <stop offset="1" stop-color="#2985f5"/>
+    </linearGradient>
+    <clipPath id="clip-hero730">
+      <rect width="730" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="hero730" clip-path="url(#clip-hero730)">
+    <rect width="730" height="1080" fill="#011832"/>
+    <g id="Group_12" data-name="Group 12" transform="translate(-273.694 -195.738)">
+      <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(417 681)" fill="none" stroke="#001429" stroke-width="12">
+        <rect width="420" height="98" stroke="none"/>
+        <rect x="6" y="6" width="408" height="86" fill="none"/>
+      </g>
+      <text id="Bryan_Gonzalez" data-name="Bryan Gonzalez" transform="translate(401 751)" fill="#fff" font-size="60" font-family="YuGothic-Medium, Yu Gothic" font-weight="500" letter-spacing="0.062em"><tspan x="0" y="0">Bryan Gonzalez</tspan></text>
+    </g>
+    <text id="Front_End_Developer" data-name="Front End Developer" transform="translate(247 623)" fill="#fff" font-size="20" font-family="CourierNewPSMT, Courier New" letter-spacing="0.022em" opacity="0.38"><tspan x="0" y="0">Front End Developer</tspan></text>
+    <circle id="Ellipse_23" data-name="Ellipse 23" cx="35" cy="35" r="35" transform="translate(192 340)" fill="url(#linear-gradient)"/>
+    <path id="Path_56" data-name="Path 56" d="M601.508,766.782H628.6l16.453,18.775v22.449L628.6,826.782H601.508l-16.453-18.775V785.558Z" transform="matrix(0.899, -0.438, 0.438, 0.899, -710.212, 373.543)" fill="url(#linear-gradient-2)"/>
+    <path id="Path_58" data-name="Path 58" d="M35,0A35,35,0,1,1,0,35,35,35,0,0,1,35,0Z" transform="translate(448 692)" fill="url(#linear-gradient-3)"/>
+    <path id="Path_59" data-name="Path 59" d="M35,0A35,35,0,1,1,0,35,35,35,0,0,1,35,0Z" transform="translate(461 256)" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>

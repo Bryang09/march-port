@@ -21,7 +21,7 @@ const Info = props => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <h5>Link</h5>
+          <h5>Code</h5>
         </a>
       </div>
     </div>

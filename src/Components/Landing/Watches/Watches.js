@@ -3,7 +3,6 @@ import React from "react";
 import "./Watches.scss";
 import Counter from "../PageCounter/Counter";
 import Info from "../ProjectInfo/Info";
-import Nav from "../Nav/Nav";
 
 const Watches = props => {
   const { project } = props;

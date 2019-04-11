@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import "./Clothing.scss";
 import Counter from "../PageCounter/Counter";
 import Info from "../ProjectInfo/Info";
-import Nav from "../Nav/Nav";
 
 class Clothing extends Component {
   render() {
@@ -11,11 +10,9 @@ class Clothing extends Component {
 
     const { project } = this.props;
 
-    const color = "#051735";
 
     return (
       <>
-        {/* <Nav color={color} /> */}
 
         <div className="Project Clothing">
           <div className="img clothing" />

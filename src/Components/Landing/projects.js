@@ -21,8 +21,8 @@ export const Projects = {
     desc:
       "This is a React application that uses the PetFinder API to search for nearby shelters and animals.",
     class: "Shelter",
-    code: "https://github.com/Bryang09/newshelter",
-    demo: "https://bryang09.github.io/newshelter/#/"
+    code: "https://github.com/Bryang09/new-shelter",
+    demo: "https://bryang09.github.io/new-shelter/#/"
   },
   movies: {
     id: 4,

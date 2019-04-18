@@ -4,31 +4,24 @@ import "./Nav.scss";
 
 class Nav extends Component {
   state = {
-    nav: false,
+    nav: false
   };
 
   onNav = () => {
     this.setState({ nav: !this.state.nav });
   };
 
-
   render() {
-    const {  nav } = this.state;
+    const { nav } = this.state;
 
     return (
       <div className="Nav">
-        <div
-          className="navContainer"
-          onClick={this.onNav}
-
-        >
+        <div className="navContainer" onClick={this.onNav}>
           <div className={nav ? "line line1 line1Nav" : "line line1"} />
           <div className={nav ? "line line2 line2Nav" : "line line2"} />
           <div className={nav ? "line line3 line3Nav" : "line line3"} />
         </div>
-        <div
-          className={nav ? "navigation navInfo" : "noNavigation"}
-        >
+        <div className={nav ? "navigation navInfo" : "noNavigation"}>
           <div className="container">
             <h2>
               <a
@@ -61,7 +54,7 @@ class Nav extends Component {
               <a href="mailto:bryan.gonzalez1020.bg@gmail.com">Email</a>
             </h2>
             <h2>
-              <a href="resume.pdf" target="_blank">
+              <a href="newResume.pdf" target="_blank">
                 Resume
               </a>
             </h2>

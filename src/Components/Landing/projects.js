@@ -30,8 +30,8 @@ export const Projects = {
     desc:
       "This is an application that uses the MoviesDB API to search for movies and shows.",
     class: "Movies",
-    code: "https://github.com/Bryang09/newmovies",
-    demo: "https://bryang09.github.io/newmovies/#/"
+    code: "https://github.com/Bryang09/new-movies",
+    demo: "https://bryang09.github.io/new-movies/#/"
   },
   anime: {
     id: 5,
